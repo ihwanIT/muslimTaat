@@ -1,0 +1,340 @@
+/* font import google */
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+  /* font-family: 'Amiri', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+  /* font-family: 'Lateef', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+  /*font-family: 'Scheherazade', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+  /* font-family: 'Thabit', serif; */
+
+  /* @font-face {
+    font-family: 'fontArab';
+    src: url('/fonts/fontArab.ttf') format('ttf'),
+} */
+  @font-face {
+    font-family: 'fontArabtoto';
+    src: url('/fonts/fontArab.ttf') format('truetype');
+}
+  .navbar{
+    background-color: white;
+}
+.amam{
+    font-family: 'fontArabtoto', sans-serif;
+    color: red;
+    margin: 50px;
+}
+
+.bar-search{
+    /* margin: 5px; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-bar-ayat{
+    /* background-color: #039BE5; */
+    padding: 10px;
+    margin: 10px 200px;
+}
+/* JUZ */
+.container-juz{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(228, 228, 228, 0.418);
+    width: 30%;
+}
+.bar-search form{
+    width: 70%;
+    margin: 20px;
+}
+.bar-search input{
+    border: 0;
+    border-radius: 5px;
+    font-size: clamp(12px, 3vw, 17px);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-index{
+    margin:5px 50px;
+    text-align: center;
+}
+.home-index a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: clamp(12px, 3vw, 17px);
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-index a:hover{
+    color: white;
+}
+.link-dataQuran{
+    margin: 20px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-surah{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-data-quran a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: clamp(12px, 3vw, 17px);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-data-quran a:hover{
+    text-decoration: underline;
+}
+
+.container-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 20px;
+}
+.container-bar a{
+    text-decoration: none;
+    color: black;
+    width: 32%;
+}
+h4{
+    text-align: center;
+    font-family: 'Scheherazade', serif;
+    font-size: larger;
+}
+.bar{
+    margin: 10px;
+    border: 1px solid #9797973a;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.tafsir{
+    padding: 10px;
+    margin: 10px 200px;
+}
+.bar .name{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+.bar .arti{
+    font-size: 12px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.data-bar{
+    background-color: #0e60a3;
+    display: flex;
+    align-items: center;
+}
+.data-ayat-item{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #87C4FF; */
+}
+.accordion{
+    margin: 10px;
+}
+.accordion button{
+    margin: 10px;
+    border: 0;
+    background-color: white;
+ 
+}
+.icon-container{
+    cursor: pointer;
+}
+.button-ayat{
+    margin:0px; 
+    padding:7px;
+    border:0;
+    background-color: white;
+}
+.bar .no{
+    padding: 10px 15px;
+    background-color: #e6e6e65e;
+    border-radius: 5px;
+    margin-right: 15px;
+    /* font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-family:'Courier New', Courier, monospace;
+}
+.bar:hover{
+    border: 1px solid #87C4FF;
+    color: #0e60a3;
+}
+/* offcanva bootstraph */
+.list-menu ul li a{
+    font-size: clamp(12px, 3vw, 17px);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.list-menu ul li a svg{
+    margin-right: 20px;
+}
+.list-menu ul li a:hover{
+    background-color: #CDE8E5;
+}
+/* off canva menu */
+/* FOOTER */
+footer{
+    background-color: #040D12;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: clamp(12px, 3vw, 17px);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-menu ul li{
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer-menu ul li a{
+    color: white;
+}
+.footer-menu ul li a:hover{
+    color: #0e60a3;
+}
+/* AYAT */
+.text-ayat{
+    font-family: 'Scheherazade', serif;
+    font-size: xx-large;
+}
+/* SURAH */
+.container-juz-surah{
+    display: grid;
+}
+/* DOA-DOA */
+.container-doa{
+    padding: 10px;
+    margin: 0px 100px;
+}
+/* ASMAUL HUSNA */
+.container-asmaul-husna{
+    padding: 10px;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.asmaulHusna-bar{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgba(228, 228, 228, 0.418);
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'fontArab1', sans-serif;
+}
+.asmaulHusna-bar:hover{
+    border: 1px solid #add6ff8f;
+    color: #0e60a3;
+}
+.color{
+    font-family: 'fontArab1';
+    color: #0e60a3;
+}
+.bar-doa{
+    display: flex;
+    margin: 10px;
+    justify-content:space-between;
+    /* background-color: rgba(228, 228, 228, 0.418); */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(228, 228, 228, 0.418);
+}
+.bar-doa:hover{
+    border: 1px solid rgba(228, 228, 228, 0.418);
+    border: 1px solid #add6ff8f;
+    color: #0e60a3;
+}
+@media screen and (max-width:600px){
+    .home-index{
+        text-decoration: none;
+        color: black;
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .home-index a{
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+    }
+    .container-bar{
+        display: block;
+    }
+    .bar{
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .bar-ayat{
+        margin: 10px;
+    }
+    footer{
+        height: 100%;
+    }
+    .bar-search form{
+        width: 100%;
+    }     
+    .link-dataQuran{
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .mobile-half {
+        width: 50%;
+      }
+      .container-bar-ayat{
+        padding: 10px;
+        margin: 10px 5px;
+        border-bottom: 1px solid #9797973a;
+    }
+    .tafsir{
+        padding: 10px;
+        margin: 10px;
+    }
+    .container-juz{
+        width: 100%;
+        margin: 10px 0px;
+    }
+/* DOA-DOA */
+.container-doa{
+    padding: 10px;
+    margin: 0px 20px;
+}
+.bar-doa{
+    display: block;
+}
+}
